@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Testapp.HomePageTest"
+	Title="Home">
+	<ContentPage.Content>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="20*" />
+				<RowDefinition Height="35*" />
+				<RowDefinition Height="35*" />
+				<RowDefinition Height="10*" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="50*" />
+				<ColumnDefinition Width="50*" />
+			</Grid.ColumnDefinitions>
+
+			<Label 
+        		Text="FindMe"
+        		TextColor="White"
+        		FontSize="Large"
+        		FontAttributes="Bold"
+        		BackgroundColor="Blue"
+        		XAlign="Center"
+        		YAlign="Center" 
+        		Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+        	<Button
+        		Image="tagIcon.png"
+        		VerticalOptions="Center"
+        		HorizontalOptions="Center"
+        		Grid.Row="1" Grid.Column="0" />
+
+        	<Label 
+        		Text="Tags"
+        		TextColor="Black"
+        		BackgroundColor="White" 
+        		XAlign="Center"
+        		VerticalOptions="End" 
+        		Grid.Row="1" Grid.Column="0"/>
+
+        	<Button
+        		Image="account-icon.png"
+        		VerticalOptions="Center"
+        		HorizontalOptions="Center"
+        		Grid.Row="1" Grid.Column="1" />
+
+        	<Label 
+        		Text="Account"
+        		TextColor="Black"
+        		BackgroundColor="White" 
+        		XAlign="Center"
+        		VerticalOptions="End" 
+        		Grid.Row="1" Grid.Column="1"/>
+
+        	<Button
+        		Image="settings-icon.png"
+        		VerticalOptions="CenterAndExpand"
+        		HorizontalOptions="Center"
+        		MinimumHeightRequest="300"
+        		MinimumWidthRequest="300"
+        		Grid.Row="2" Grid.Column="0" />
+
+        	<Label 
+        		Text="Settings"
+        		TextColor="Black"
+        		BackgroundColor="White" 
+        		XAlign="Center"
+        		VerticalOptions="End" 
+        		Grid.Row="2" Grid.Column="0"/>
+
+        	<Button
+        		Image="logout-icon.png"
+        		VerticalOptions="Center"
+        		HorizontalOptions="Center"
+        		Grid.Row="2" Grid.Column="1" />
+
+       		<Label 
+        		Text="Logout"
+        		TextColor="Black"
+        		BackgroundColor="White" 
+        		XAlign="Center"
+        		VerticalOptions="End" 
+        		Grid.Row="2" Grid.Column="1"/>
+
+
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
